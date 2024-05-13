@@ -23,3 +23,4 @@ func Web(page *fiber.App) {
 	page.Get("/hahay", controller.GetTempatData)
 	
 }
+
