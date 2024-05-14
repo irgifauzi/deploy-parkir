@@ -21,6 +21,6 @@ func Web(page *fiber.App) {
 	page.Get("/checkip", controller.Homepage) 
 
 	page.Get("/hahay", controller.GetTempatData)
-	
+	page.Get("/hahay1", controller.GetTempatData)
 }
 
